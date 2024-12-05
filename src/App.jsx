@@ -1,5 +1,6 @@
 import Hero from "./components/Hero.jsx";
 import About from "./components/about.jsx";
+import Navbar from "./components/navbar.jsx";
 
 
 const App = () => {
@@ -7,7 +8,8 @@ const App = () => {
 
   return (
       <main className={"relative min-h-screen w-screen overflow-x-hidden"}>
-        <Hero />
+          <Navbar />
+          <Hero />
           <About />
       </main>
   )
