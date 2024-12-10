@@ -3,6 +3,8 @@ import About from "./components/about.jsx";
 import Navbar from "./components/navbar.jsx";
 import Features from "./components/features.jsx";
 import Story from "./components/story.jsx";
+import Contact from "./components/contact.jsx";
+import Footer from "./components/footer.jsx";
 
 
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
           <About />
           <Features />
           <Story />
+          <Contact />
+          <Footer />
       </main>
   )
 }
